@@ -19,7 +19,7 @@ This is my template for my future nextjs applications. It uses `turbo` for devel
 
 - Note that turbopack doesn't support Sass yet. So if you use `.sass` or `.scss`, please, start development server [without turbo.](#development) <i>I will update the template and this file as soon as turbo adds support for Sass </i> <br/>
 
-### installation
+### Installation
 
 ```
 git clone https://github.com/azeek21/next_template.git
