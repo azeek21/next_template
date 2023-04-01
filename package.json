@@ -1,5 +1,11 @@
 {
   "private": true,
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.19.0",
+    "yarn": "plase-use-npm",
+    "pnpm": "plase-use-npm"
+  },
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
