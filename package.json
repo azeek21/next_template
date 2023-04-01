@@ -11,7 +11,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "clsx": "1.2.1",
