@@ -24,3 +24,7 @@ Tweaks:
   - Default fomratting settings.
   - files with name that end with `.json` or have `config` in them will be ingored, I don't really want my fofing files to be formatted.
     - build folders and `node_modules` are also ignored.
+- Vscode `.vscode/settings.json`
+  - Set default formatter to prettier.
+  - Format and organise imports on save.
+  - Workspace tab size: `2`.
