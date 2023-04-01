@@ -7,7 +7,8 @@
     "pnpm": "plase-use-npm"
   },
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev",
+    "dev:turbo": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -18,7 +19,8 @@
     "clsx": "1.2.1",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "1.60.0"
   },
   "devDependencies": {
     "@commitlint/cli": "17.5.1",

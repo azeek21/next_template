@@ -1,0 +1,18 @@
+.template {
+  /* you can remove this section. it only serves a purpose to show
+  how css modules are implemented. */
+  transition: 300ms ease-in-out;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 1rem;
+  max-width: 40%;
+  padding: 1rem;
+}
+
+.template:hover {
+  box-shadow: 0 0 0.5rem black;
+}
