@@ -2,10 +2,13 @@
 
 ## Contents
 
-- [Package managers](#package-manager)
+- [Package managers](#package-managers)
 - [Formatters](#format)
+- [Git and github](#git-and-github)
+  - [Husky](#husky)
+  - [Commitlint](#commitlint)
 
-### Package manager
+### Package managers
 
 To avoid headaches when different package managers used by accident or intentionally, this template is locked to use only npm. <br/>
 See `engines` section in `package.json` and `.npmrc`.
@@ -28,3 +31,15 @@ Tweaks:
   - Set default formatter to prettier.
   - Format and organise imports on save.
   - Workspace tab size: `2`.
+
+### Git and github
+
+#### husky
+
+Using `husky` to take some actions on different stages of git. <br/>
+All settings are in `.husky` directory. Each file in this directory refers to a specific stage of git.
+
+#### commitlint
+
+Using `commitlint` and `commitlint/config-conventional` to lint commit messages. Helps a lot during development. <br/>
+See `commitlint.config.json` for more info.
