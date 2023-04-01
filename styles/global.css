@@ -1,0 +1,22 @@
+@import "normalize.css";
+
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.2);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 180%;
+  text-align: center;
+}
+
+span {
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  white-space: nowrap;
+}
