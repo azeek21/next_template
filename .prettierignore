@@ -1,0 +1,7 @@
+.next
+.yarn
+/.next
+/node_modules
+node_modules
+*.json
+*.config*

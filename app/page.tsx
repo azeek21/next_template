@@ -1,5 +1,4 @@
-
-export default function Home () {
-
-    return <h1>Welcome to home page.</h1>
+export default function Home() {
+  const _f = 'Hi this is a test';
+  return <h1>Welcome to home page.</h1>;
 }
